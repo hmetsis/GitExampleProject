@@ -1,0 +1,9 @@
+diff a/src/main/java/GitExample.java b/src/main/java/GitExample.java	(rejected hunks)
+@@ -1,7 +0,0 @@
+-public class GitExample {
+-
+-    public static void main(String[] args) {
+-        
+-    }
+-
+-}
