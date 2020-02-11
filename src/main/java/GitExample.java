@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-import com.googlecode.lanterna.terminal.DefaultTerminalFactory;
-import com.googlecode.lanterna.terminal.Terminal;
-
-import java.io.IOException;
-
-public class GitExample {
-
-    public static void main(String[] args) throws IOException {
-        DefaultTerminalFactory terminalFactory = new DefaultTerminalFactory();
-        Terminal terminal;
-        boolean continuereadinginput = true;
-        terminal = terminalFactory.createTerminal();
-    }
-}
-=======
 import java.awt.*;
 import java.awt.image.BufferStrategy;
 import java.util.Random;
@@ -113,4 +97,4 @@ public class GitExample extends Canvas implements Runnable {
             new Game();
         }
     }
->>>>>>> aa3e4d46460d17bda31472218657d964d8f21de5
+
