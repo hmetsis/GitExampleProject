@@ -1,0 +1,18 @@
+diff a/src/main/java/GitExample.java b/src/main/java/GitExample.java	(rejected hunks)
+@@ -14,7 +14,7 @@
+         private Random r;
+         private Handler handler;
+ 
+-        public Game() {
++        public GitExample() {
+             new Window(WIDTH, HEIGHT, "The Game", this);
+ 
+             handler = new Handler();
+@@ -94,6 +94,6 @@
+         }
+ 
+         public static void main(String[] args) {
+-            new Game();
++            new GitExample();
+         }
+     }
