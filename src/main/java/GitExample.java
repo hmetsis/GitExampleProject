@@ -10,7 +10,5 @@ public class GitExample {
         Terminal terminal;
         boolean continuereadinginput = true;
         terminal = terminalFactory.createTerminal();
-        
     }
-
 }
