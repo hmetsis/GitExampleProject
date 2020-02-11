@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
 
-public class ID {
+public enum ID {
+    Player(),
+    Enemy();
+
 }
