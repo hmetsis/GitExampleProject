@@ -14,7 +14,7 @@ public class GitExample extends Canvas implements Runnable {
         private Random r;
         private Handler handler;
 
-        public Game() {
+        public GitExample() {
             new Window(WIDTH, HEIGHT, "The Game", this);
 
             handler = new Handler();
@@ -94,6 +94,6 @@ public class GitExample extends Canvas implements Runnable {
         }
 
         public static void main(String[] args) {
-            new Game();
+            new GitExample();
         }
     }
